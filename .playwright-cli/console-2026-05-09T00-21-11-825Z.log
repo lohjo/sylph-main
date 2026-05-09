@@ -1,0 +1,6 @@
+[  178563ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  178865ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/af32b_react-dom_588b786e._.js:15305
+[  179024ms] Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+    at getServerError (http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:2050:62)
+    at http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:3606:27
+[  179027ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206

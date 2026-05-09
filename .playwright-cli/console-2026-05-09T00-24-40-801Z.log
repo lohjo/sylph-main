@@ -1,0 +1,57 @@
+[      31ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     274ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/af32b_react-dom_588b786e._.js:15305
+[     369ms] Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+    at getServerError (http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:2050:62)
+    at http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:3606:27
+[     361ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[     405ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  225346ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  228708ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  232075ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  235434ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  238800ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  246142ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  252427ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[  253056ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  253180ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/af32b_react-dom_588b786e._.js:15305
+[  253198ms] Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+    at getServerError (http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:2050:62)
+    at http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:3606:27
+[  253199ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[  991249ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[  994467ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[  994880ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  994989ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/af32b_react-dom_588b786e._.js:15305
+[  995001ms] Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+    at getServerError (http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:2050:62)
+    at http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:3606:27
+[  995002ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[ 1040323ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1043672ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1047024ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1050369ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1053737ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1061086ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1068462ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1075820ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1083144ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1089526ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[ 1089962ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[ 1090065ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/af32b_react-dom_588b786e._.js:15305
+[ 1090078ms] Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+    at getServerError (http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:2050:62)
+    at http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:3606:27
+[ 1090077ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/c382a_next_dist_8777c220._.js:1206
+[ 1276971ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1280337ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1283687ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1287012ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1290352ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1297700ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1305035ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1312389ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1319751ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1564817ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: WebSocket opening handshake timed out @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 1809856ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: WebSocket opening handshake timed out @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 2054891ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: WebSocket opening handshake timed out @ http://localhost:3000/_next/static/chunks/c382a_next_dist_client_65ce22a2._.js:2266
+[ 2058704ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/22482a455d700c64.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0

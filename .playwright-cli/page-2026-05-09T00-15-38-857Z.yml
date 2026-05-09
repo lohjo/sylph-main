@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+        - /url: "#main-content"
+    - main [ref=e3]:
+        - article [ref=e4]:
+            - generic [ref=e5]:
+                - generic [ref=e7]:
+                    - heading "John Ray Loh" [level=1] [ref=e8]
+                    - paragraph [ref=e9]: Engineering Science student in Singapore. I build things at the intersection of deep-tech research and human-centred engineering — open-source medical devices, multimodal AI tooling, and a CO₂ adsorption project that I am, at this moment, fitting breakthrough curves to.
+                - generic [ref=e11]:
+                    - heading "Selected work" [level=2] [ref=e12]
+                    - generic [ref=e13]:
+                        - link "SENTINEL — Multimodal AI-Generated Content Detection A real-time, multimodal misinformation defence platform built around Google Gemini and SEA-LION GUARD, with a Chrome extension that flags AI-generated text, images, and audio inline. AI FastAPI Gemini SEA-LION GUARD" [ref=e14] [cursor=pointer]:
+                            - /url: /projects/sentinel
+                            - heading "SENTINEL — Multimodal AI-Generated Content Detection" [level=3] [ref=e16]
+                            - paragraph [ref=e17]: A real-time, multimodal misinformation defence platform built around Google Gemini and SEA-LION GUARD, with a Chrome extension that flags AI-generated text, images, and audio inline.
+                            - list [ref=e18]:
+                                - listitem [ref=e19]: AI
+                                - listitem [ref=e20]: FastAPI
+                                - listitem [ref=e21]: Gemini
+                                - listitem [ref=e22]: SEA-LION GUARD
+                        - link "Lifeline — A Sub-S$10 Open-Source Blood Sampler A 3D-printable, vacuum-actuated blood sampler designed for disaster relief and low-resource clinical settings. Bill of materials under S$10, 4 mL capacity, no electricity required. Hardware OpenSCAD Fusion360 CC-BY-4.0" [ref=e23] [cursor=pointer]:
+                            - /url: /projects/lifeline
+                            - heading "Lifeline — A Sub-S$10 Open-Source Blood Sampler" [level=3] [ref=e25]
+                            - paragraph [ref=e26]: A 3D-printable, vacuum-actuated blood sampler designed for disaster relief and low-resource clinical settings. Bill of materials under S$10, 4 mL capacity, no electricity required.
+                            - list [ref=e27]:
+                                - listitem [ref=e28]: Hardware
+                                - listitem [ref=e29]: OpenSCAD
+                                - listitem [ref=e30]: Fusion360
+                                - listitem [ref=e31]: CC-BY-4.0
+                        - link "ContextGuard — Misinformation Defence in the Browser A browser-native credibility layer that surfaces source quality and contradicting evidence inline on news articles, designed for non-technical readers. Next.js TypeScript Browser Extension Civic Tech" [ref=e32] [cursor=pointer]:
+                            - /url: /projects/contextguard
+                            - heading "ContextGuard — Misinformation Defence in the Browser" [level=3] [ref=e34]
+                            - paragraph [ref=e35]: A browser-native credibility layer that surfaces source quality and contradicting evidence inline on news articles, designed for non-technical readers.
+                            - list [ref=e36]:
+                                - listitem [ref=e37]: Next.js
+                                - listitem [ref=e38]: TypeScript
+                                - listitem [ref=e39]: Browser Extension
+                                - listitem [ref=e40]: Civic Tech
+                - generic [ref=e42]:
+                    - link "research (2)" [ref=e43] [cursor=pointer]:
+                        - /url: /research
+                        - heading "research (2)" [level=2] [ref=e44]
+                    - 'link "Modelling the Breakthrough Curve: PFO, LDF, and PSO Mar 4, 2026" [ref=e45] [cursor=pointer]':
+                        - /url: /research/breakthrough-curve-modelling
+                        - paragraph [ref=e46]: "Modelling the Breakthrough Curve: PFO, LDF, and PSO"
+                        - paragraph [ref=e47]: Mar 4, 2026
+                    - 'link "CO₂ Adsorption in Packed-Bed Columns: Project Scope Jan 22, 2026" [ref=e48] [cursor=pointer]':
+                        - /url: /research/co2-adsorption-scope
+                        - paragraph [ref=e49]: "CO₂ Adsorption in Packed-Bed Columns: Project Scope"
+                        - paragraph [ref=e50]: Jan 22, 2026
+                - generic [ref=e52]:
+                    - link "writing (3)" [ref=e53] [cursor=pointer]:
+                        - /url: /writing
+                        - heading "writing (3)" [level=2] [ref=e54]
+                    - 'link "Notes from SAIL: Cross-Cultural Engineering in Southeast Asia Feb 2, 2026" [ref=e55] [cursor=pointer]':
+                        - /url: /writing/sail-cross-cultural-engineering
+                        - paragraph [ref=e56]: "Notes from SAIL: Cross-Cultural Engineering in Southeast Asia"
+                        - paragraph [ref=e57]: Feb 2, 2026
+                    - link "Presenting Research to the Deputy Prime Minister Dec 10, 2025" [ref=e58] [cursor=pointer]:
+                        - /url: /writing/presenting-to-the-dpm
+                        - paragraph [ref=e59]: Presenting Research to the Deputy Prime Minister
+                        - paragraph [ref=e60]: Dec 10, 2025
+                    - link "Teaching EV3 Robotics to Underprivileged Students Oct 18, 2025" [ref=e61] [cursor=pointer]:
+                        - /url: /writing/teaching-ev3-robotics
+                        - paragraph [ref=e62]: Teaching EV3 Robotics to Underprivileged Students
+                        - paragraph [ref=e63]: Oct 18, 2025
+                - generic [ref=e65]:
+                    - heading "Elsewhere" [level=2] [ref=e66]
+                    - list [ref=e67]:
+                        - listitem [ref=e68]: GitHub
+                        - listitem [ref=e69]:
+                            - link "github.com/lohjo" [ref=e70] [cursor=pointer]:
+                                - /url: https://github.com/lohjo
+                        - listitem [ref=e71]: LinkedIn
+                        - listitem [ref=e72]:
+                            - link "linkedin.com/in/lohjohnray" [ref=e73] [cursor=pointer]:
+                                - /url: https://linkedin.com/in/lohjohnray
+                        - listitem [ref=e74]: Email
+                        - listitem [ref=e75]:
+                            - link "hello@johnrayloh.com" [ref=e76] [cursor=pointer]:
+                                - /url: mailto:hello@johnrayloh.com
+                - generic [ref=e80]:
+                    - text: © 2026 John Ray Loh · Built with
+                    - link "Sylph" [ref=e81] [cursor=pointer]:
+                        - /url: https://github.com/raphaelsalaja/sylph
+                    - text: "on"
+                    - link "Next.js" [ref=e82] [cursor=pointer]:
+                        - /url: https://nextjs.org/
+    - button "Open Next.js Dev Tools" [ref=e88] [cursor=pointer]:
+        - img [ref=e89]

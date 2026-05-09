@@ -1,16 +1,14 @@
 import { notFound } from "next/navigation";
-
 import { Layout } from "@/components/screens/posts";
 import { getPosts } from "@/lib/mdx";
 import { OpenGraph } from "@/lib/og";
-import type { Post } from "@/types";
 
 const route = "projects";
 
 const Posts = getPosts(route);
 
 interface PageProps {
-  params: Post;
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -19,10 +17,12 @@ export async function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: PageProps) {
-  const post = Posts.find((post: { slug: string }) => post.slug === params.slug);
+export async function generateMetadata({ params }: PageProps) {
+  const { slug } = await params;
+  const post = Posts.find((post: { slug: string }) => post.slug === slug);
   const title = post ? post.title : "";
-  const image = `${process.env.NEXT_PUBLIC_SITE_URL}api/og?title=${encodeURIComponent(title)}`;
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, "");
+  const image = `${siteUrl}/api/og?title=${encodeURIComponent(title)}`;
 
   return {
     ...OpenGraph,
@@ -37,8 +37,9 @@ export function generateMetadata({ params }: PageProps) {
   };
 }
 
-export default function Page({ params }: PageProps) {
-  const post = Posts.find((post: { slug: string }) => post.slug === params.slug);
+export default async function Page({ params }: PageProps) {
+  const { slug } = await params;
+  const post = Posts.find((post: { slug: string }) => post.slug === slug);
 
   if (!post) {
     notFound();

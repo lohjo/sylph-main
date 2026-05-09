@@ -32,6 +32,7 @@ export const AppThemeSwitcher = () => {
         <button
           type="button"
           key={label}
+          aria-label={label}
           onClick={() => setTheme(label)}
           className={cn("ransition-all flex h-6 w-6 items-center justify-center rounded-[4px] hover:opacity-50", active ? "bg-gray-4 text-foreground" : "")}
         >

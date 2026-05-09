@@ -1,18 +1,18 @@
-@import url("@radix-ui/colors/gray.css");
-@import url("@radix-ui/colors/gray-alpha.css");
-@import url("@radix-ui/colors/gray-dark.css");
-@import url("@radix-ui/colors/gray-dark-alpha.css");
-@import url("@radix-ui/colors/teal.css");
-@import url("@radix-ui/colors/teal-alpha.css");
-@import url("@radix-ui/colors/teal-dark.css");
-@import url("@radix-ui/colors/teal-dark-alpha.css");
-@import url("@radix-ui/colors/amber.css");
-@import url("@radix-ui/colors/amber-alpha.css");
-@import url("@radix-ui/colors/amber-dark.css");
-@import url("@radix-ui/colors/amber-dark-alpha.css");
-@import url("@radix-ui/colors/black-alpha.css");
-@import url("@radix-ui/colors/white-alpha.css");
-@import url("tailwindcss");
+@import "tailwindcss";
+@import "@radix-ui/colors/gray.css";
+@import "@radix-ui/colors/gray-alpha.css";
+@import "@radix-ui/colors/gray-dark.css";
+@import "@radix-ui/colors/gray-dark-alpha.css";
+@import "@radix-ui/colors/teal.css";
+@import "@radix-ui/colors/teal-alpha.css";
+@import "@radix-ui/colors/teal-dark.css";
+@import "@radix-ui/colors/teal-dark-alpha.css";
+@import "@radix-ui/colors/amber.css";
+@import "@radix-ui/colors/amber-alpha.css";
+@import "@radix-ui/colors/amber-dark.css";
+@import "@radix-ui/colors/amber-dark-alpha.css";
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/white-alpha.css";
 
 @config "../tailwind.config.ts";
 

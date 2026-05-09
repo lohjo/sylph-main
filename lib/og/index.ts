@@ -1,11 +1,12 @@
 import type { Metadata } from "next/types";
 
 const SITE_NAME = "John Ray Loh";
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, "");
 const SITE_DESCRIPTION =
   "Engineering Science student in Singapore working at the intersection of deep-tech research and practical, human-centred engineering. CO₂ adsorption research, open-source medical devices, multimodal AI tooling.";
 
 export const OpenGraph: Metadata = {
-  metadataBase: process.env.NEXT_PUBLIC_SITE_URL ? new URL(process.env.NEXT_PUBLIC_SITE_URL) : undefined,
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: {
     default: SITE_NAME,
     template: `%s — ${SITE_NAME}`,
@@ -39,14 +40,14 @@ export const OpenGraph: Metadata = {
     url: process.env.NEXT_PUBLIC_SITE_URL,
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL}api/og`],
+    images: [`${siteUrl}/api/og`],
     siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL}api/og`],
+    images: [`${siteUrl}/api/og`],
   },
   robots: {
     index: true,
